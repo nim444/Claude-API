@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a Python function that extracts the AWS region from an S3 bucket's regional endpoint URL",
+    "format": "python",
+    "solution_criteria": "Must parse URLs like 's3.us-west-2.amazonaws.com' or 's3-eu-central-1.amazonaws.com' and extract the region code, returning None for global endpoint URLs"
+  },
+  {
+    "task": "Create a JSON IAM policy document that allows read-only access to a specific AWS S3 bucket",
+    "format": "json",
+    "solution_criteria": "Must include proper IAM policy structure with Version, Statement array, Effect set to Allow, Action for s3:GetObject and s3:ListBucket, and Resource ARN for the bucket"
+  },
+  {
+    "task": "Write a regex pattern that matches valid AWS IAM role ARNs",
+    "format": "regex",
+    "solution_criteria": "Must match the format: arn:aws:iam::123456789012:role/RoleName with numeric account ID and alphanumeric role names containing hyphens and forward slashes"
+  }
+]

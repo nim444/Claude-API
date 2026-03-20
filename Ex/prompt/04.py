@@ -41,24 +41,29 @@ Example output:
 ```json
 [
   {
-    "task": "Description of task",
-    "format": "python"
+    "task": "Create a JSON configuration for an AWS Lambda function that sets up a basic Python runtime with a memory allocation of 512MB and a timeout of 10 seconds",
+    "format": "json",
+    "solution_criteria": "Must include runtime, memory size, timeout, and basic structure for AWS Lambda configuration"
   },
   {
-    "task": "Another task description",
-    "format": "json"
+    "task": "Write a Python function to validate AWS S3 bucket names according to AWS naming rules",
+    "format": "python",
+    "solution_criteria": "Must validate bucket name length (3-63 chars), allowed characters (lowercase, numbers, hyphens), and start/end rules"
   },
   {
-    "task": "Yet another task",
-    "format": "regex"
+    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs",
+    "format": "regex",
+    "solution_criteria": "Must match the pattern: i- followed by 8 or 17 hexadecimal characters"
   }
 ]
 ```
 
+Requirements:
 * Focus on tasks that can be solved by writing a single Python function, a single JSON object, or a single regex
 * Focus on tasks that do not require writing much code
 * Vary the formats: include one task each for "python", "json", and "regex"
 * Each task should be AWS-specific and concise
+* Include clear, specific solution_criteria that describe what makes a good solution
 
 Please generate 3 objects.
 """

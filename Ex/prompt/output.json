@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\nHere is a one-day meal plan for a vegetarian athlete training for a marathon with high energy demands:\n\n* **Calorie Target:** Approximately 3000 calories\n* **Macronutrient Breakdown:** Protein (150g), Fat (67g), Carbs (450g)\n\n## Meal Plan:\n\n* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (120g), ground flaxseed (15g), and soy milk (240g).\n    * Protein: 12g, Fat: 8g, Carbs: 75g\n\n* **Pre-Workout Snack (9:00 AM):** Whole wheat toast (60g) with peanut butter (25g) and honey (20g).\n    * Protein: 10g, Fat: 10g, Carbs: 50g\n\n* **Lunch (12:30 PM):** Chickpea and vegetable curry (200g chickpeas, 150g mixed vegetables) with brown rice (80g dry weight). Side of Greek yogurt (100g, non-fat).\n    * Protein: 28g, Fat: 12g, Carbs: 110g\n\n* **Post-Workout Snack (3:30 PM):** Smoothie with Greek yogurt (150g non-fat), mixed berries (120g), oats (40g dry weight), and almond butter (20g).\n    * Protein: 22g, Fat: 10g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Lentil and vegetable stir-fry (150g cooked lentils, 200g mixed vegetables) with quinoa (75g dry weight) and sesame oil (10g).\n    * Protein: 35g, Fat: 12g, Carbs: 95g\n\n* **Evening Snack (9:30 PM):** Whole grain bread (50g) with hummus (40g) and carrot sticks (100g).\n    * Protein: 8g, Fat: 8g, Carbs: 35g\n\nThis meal plan emphasizes plant-based protein sources (legumes, tofu, Greek yogurt, nuts, and seeds) while providing sustained carbohydrate energy for marathon training and recovery support.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "68",
+        "goal": "Marathon training with high energy demands (3000+ calories), targeting 60% carbs, 20% protein, 20% fat macronutrient split",
+        "restrictions": "Vegetarian diet"
+      },
+      "solution_criteria": [
+        "Meal plan covers a full day with breakfast, lunch, dinner, and snacks",
+        "All foods are vegetarian-compliant with no meat, poultry, or fish",
+        "Macronutrient ratios approximate 60% carbs, 20% protein, 20% fat across all meals combined",
+        "Total daily calories meet or exceed 3000 calories for marathon training energy needs"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a professional endurance athlete (marathon runner) who has specific macronutrient targets (60% carbs, 20% protein, 20% fat) and dietary restrictions (vegetarian), requiring the meal plan to balance high energy needs with limited food sources"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all three mandatory requirements by providing daily caloric total, complete macronutrient breakdown, and detailed meals with portions and timing. However, the secondary criterion regarding macronutrient ratios is not fully satisfied. The plan achieves 60% carbs and 20% protein as specified, but delivers only 18% fat (55g) instead of the required 20% (67g). This represents a meaningful deviation from the stated goal, though the overall nutritional structure remains sound for marathon training. The solution is well-organized, practical, and vegetarian-compliant, but the macronutrient ratio shortfall prevents a higher score."
+  }
+]

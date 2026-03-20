@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a Python function to extract the AWS account ID from an IAM ARN string",
+    "format": "python",
+    "solution_criteria": "Must parse ARN format (arn:aws:iam::123456789012:role/RoleName) and return the 12-digit account ID, handle invalid ARNs gracefully"
+  },
+  {
+    "task": "Create a JSON policy document that allows an IAM user to read objects from a specific AWS S3 bucket",
+    "format": "json",
+    "solution_criteria": "Must include Version, Statement with Effect Allow, Action s3:GetObject, Resource ARN with bucket name, and proper JSON structure"
+  },
+  {
+    "task": "Write a regex pattern that matches valid AWS CloudWatch Log Group names",
+    "format": "regex",
+    "solution_criteria": "Must match names containing alphanumeric characters, underscores, hyphens, forward slashes, periods, and hash symbols, with length 1-512 characters"
+  }
+]
